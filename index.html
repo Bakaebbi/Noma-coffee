@@ -1,14 +1,211 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>Noma - Coffee Shop</title>
-</head>
-<body>
-    <header>
-        <a href="#">Noma</a>
-    </header>
-</body>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta
+            name="description"
+            content="Noma - кофе и ритуалы. Кофейня для неспешных утренних встреч. Демонстрационный проект для портфолио."
+       >
+        <meta name="theme-color" content="#F5F0E8">
+        <title>NOMA - кофе и ритуалы</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Manrope:wght@400;500&display=swap"
+            rel="stylesheet"
+       >
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Перейти к содержимому</a>
+        <header id="top" class="site-header container">
+            <a class="logo" href="#top" aria-label="Noma - в начало страницы"
+                >NOMA<span>Кофе и ритуалы</span></a
+            >
+            <nav aria-label="Основная навигация">
+                <ul class="nav-list">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#visit">В гости</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main" tabindex="-1">
+            <section
+                id="hero"
+                class="hero container"
+                aria-labelledby="hero-title"
+            >
+                <div class="hero-copy">
+                    <p class="eyebrow">Спешелти-кофе · Без спешки</p>
+                    <h1 id="hero-title">Кофе как<br>ритуал</h1>
+                    <p class="hero-description">
+                        Бережно заваренный кофе, тёплые разговоры и немного
+                        времени для себя
+                    </p>
+                    <a class="button" href="#menu"
+                        >Посмотреть меню <span aria-hidden="true">↗</span></a
+                    >
+                </div>
+                <figure class="hero-photo">
+                    <img
+                        src="images/coffee.webp"
+                        alt="Приготовление фильтр-кофе: горячую воду наливают в воронку над стеклянным кофейником"
+                        width="1200"
+                        height="800"
+                        fetchpriority="high"
+                   >
+                    <figcaption>Маленькая пауза для хорошего дня</figcaption>
+                </figure>
+            </section>
+            <section
+                id="about"
+                class="about section container"
+                aria-labelledby="about-title"
+            >
+                <p class="eyebrow section-label">О нас</p>
+                <div class="about-copy">
+                    <h2 id="about-title">
+                        Хороший кофе.<br>Время без спешки
+                    </h2>
+                    <p>
+                        «Noma» начинается с простых вещей: любимого места у
+                        окна, аромата свежемолотого зерна и чашки,
+                        приготовленной с заботой.
+                    </p>
+                    <p>
+                        Мы задумали небольшую городскую кофейню, куда легко
+                        зайти по пути и приятно вернуться. За утренним эспрессо,
+                        разговором с бариста или тихой паузой посреди дня.
+                    </p>
+                </div>
+            </section>
+            <section
+                id="menu"
+                class="menu section"
+                aria-labelledby="menu-title"
+            >
+                <div class="container">
+                    <div class="section-heading">
+                        <div>
+                            <p class="eyebrow">Меню</p>
+                            <h2 id="menu-title">Любимый вкус каждый день</h2>
+                        </div>
+                        <p>Ничего лишнего. Всё с заботой</p>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <span class="menu-number" aria-hidden="true"
+                                >01</span
+                            >
+                            <div class="menu-item-heading">
+                                <h3>Эспрессо</h3>
+                                <p class="price">190 ₽</p>
+                            </div>
+                            <p>
+                                Плотный и сбалансированный. С нотами тёмного
+                                шоколада и обжаренных орехов.
+                            </p>
+                            <p class="menu-note">С чего всё начинается</p>
+                        </li>
+                        <li class="menu-item">
+                            <span class="menu-number" aria-hidden="true"
+                                >02</span
+                            >
+                            <div class="menu-item-heading">
+                                <h3>Флэт уайт</h3>
+                                <p class="price">290 ₽</p>
+                            </div>
+                            <p>
+                                Двойной эспрессо и молоко с нежной микропеной.
+                                Мягкий вкус для уютного начала дня.
+                            </p>
+                            <p class="menu-note">Утро помягче</p>
+                        </li>
+                        <li class="menu-item">
+                            <span class="menu-number" aria-hidden="true"
+                                >03</span
+                            >
+                            <div class="menu-item-heading">
+                                <h3>Фильтр-кофе</h3>
+                                <p class="price">250 ₽</p>
+                            </div>
+                            <p>
+                                Сезонное зерно, чистый вкус и лёгкие фруктовые
+                                ноты. Спросите бариста, что мы завариваем
+                                сегодня.
+                            </p>
+                            <p class="menu-note">Можно не торопиться</p>
+                        </li>
+                    </ul>
+                    <p class="demo-note">
+                        Пример меню. Напитки и цены представлены для
+                        демонстрации.
+                    </p>
+                </div>
+            </section>
+            <section id="visit" class="visit" aria-labelledby="visit-title">
+                <div class="visit-layout container">
+                    <div class="visit-intro">
+                        <p class="eyebrow">В гости</p>
+                        <h2 id="visit-title">Загляните<br>на чашку</h2>
+                    </div>
+                    <div class="visit-copy">
+                        <p>
+                            Оставьте городскую суету за дверью. Здесь найдётся
+                            время для тёплой чашки и спокойного разговора.
+                        </p>
+                        <div class="visit-details">
+                            <div>
+                                <h3>Наш уголок города</h3>
+                                <p>Екатеринбург<br>ул. Тихого утра, 12</p>
+                            </div>
+                            <div>
+                                <h3>Ждём вас</h3>
+                                <p>
+                                    Пн–Пт · 08:00–20:00<br>Сб–Вс · 09:00–20:00
+                                </p>
+                            </div>
+                        </div>
+                        <p class="demo-note">
+                            «NOMA» - вымышленная кофейня. Адрес и часы работы
+                            приведены для демонстрации.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer container">
+            <div class="footer-top">
+                <a
+                    class="logo"
+                    href="#top"
+                    aria-label="Noma - в начало страницы"
+                    >NOMA<span>Кофе и ритуалы</span></a
+                >
+                <p>За кофе. За разговором.<br>За минутой для себя.</p>
+                <nav aria-label="Навигация в подвале">
+                    <ul class="nav-list">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#visit">В гости</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 NOMA. Вымышленная кофейня. Проект для портфолио.</p>
+                <a
+                    href="https://unsplash.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Фото: Unsplash
+                    <span class="visually-hidden"
+                        >(откроется в новой вкладке)</span
+                    ></a
+                >
+            </div>
+        </footer>
+    </body>
 </html>
