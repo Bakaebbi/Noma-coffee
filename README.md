@@ -1,6 +1,6 @@
 # Noma
 
-[Открыть сайт](https://bakaebbi.github.io/Noma-coffee/) · [Исходный код](https://github.com/Bakaebbi/Noma-coffee)
+[Открыть сайт](https://bakaebbi.github.io/Noma-coffee/)
 
 Одностраничный сайт вымышленной кофейни в Екатеринбурге. Проект для портфолио. Адрес, часы работы и цены демонстрационные.
 
